@@ -1,53 +1,35 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
 }
 
 .tabela-da-champions {
     width: 50%;
 }
 
-/* table, td, th {
-    padding: 3.4px;
-    background-color: aliceblue;
-    border: 3px solid #B633DC;
-    border-collapse: collapse;
-    border-radius: 6px;
+body {
+    margin: 25px;
 }
 
 table {
-    border: 3px solid #B633DC;
-    border-collapse: collapse;
-    border-radius: 7px;
-}
-
-.grupo {
     text-align: center;
-} */
-
-.grupo {
-    text-align: center;
-}
-
-table.tabela-da-champions {
-    background-color: aquamarine;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 0 4px #B633DC;
     border-collapse: collapse;
-    /* border: 7px solid #B633DC; */
-    border-radius: 45px;
     overflow: hidden;
-    outline: 3px solid #B633DC;
 }
 
-/* table tr:first-child th {
-    border-radius: 45px 0px 0px 0px;
+table tr>td {
+    text-align: left;
 }
 
-th, td {
-    padding: 1em;
-    background-color: aquamarine;
-    outline: 3px solid #B633DC;
-} */
+.grupo {
+    padding: 15px;
+}
 
-body {
-    margin: 25px;
+tr, td {
+    outline: 2px solid #B633DC;
+    border: none;
+    background: aquamarine;
+    padding: 15px;
 }
