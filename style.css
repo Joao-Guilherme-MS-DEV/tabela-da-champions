@@ -6,6 +6,50 @@ body {
     margin: 25px;
 }
 
+table {
+    width: 50%;
+    text-align: left;
+    border-collapse: collapse;
+    border-radius: 15px;
+    box-shadow: 0 0 0 4px #B633DC;
+    background: aquamarine;
+    overflow: hidden;
+}
+
+th {
+    font-size: 18.45px;
+    text-align: center;
+}
+
+td {
+    font-size: 15.55px;
+}
+
+tr, td, th {
+    outline: 2px solid #B633DC;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 25px;
+}
+
 .grupo {
     padding: 15px;
 }
@@ -32,6 +76,7 @@ tr, td {
     outline: 2px solid #B633DC;
     border: none;
     background: aquamarine;
+    
     padding: 15px;
 }
-
+ */
