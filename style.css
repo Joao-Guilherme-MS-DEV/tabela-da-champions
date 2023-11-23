@@ -2,14 +2,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 25px;
+}
 
 .grupo {
     padding: 15px;
 }
 
-body {
-    margin: 25px;
-}
 
 .tabela-da-champions {
     width: 50%;
